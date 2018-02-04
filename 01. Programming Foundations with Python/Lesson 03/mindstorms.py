@@ -40,5 +40,21 @@ def draw_flower():
 
 	window.exitonclick()
 
+def draw_triangle():
+	window = turtle.Screen()
+	window.bgcolor("red")
+
+	#draw a circle out of squares
+	triangle = turtle.Turtle()
+	triangle.color("yellow")
+	triangle.forward(110)
+	triangle.left(180-65)
+	triangle.forward(140)
+	triangle.left(180-50)
+	triangle.forward(140)
+
+	window.exitonclick()
+
 #draw_shapes()
-draw_flower()
+#draw_flower()
+draw_triangle()
