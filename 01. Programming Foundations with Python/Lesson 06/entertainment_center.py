@@ -1,8 +1,9 @@
+import fresh_tomatoes
 import media
 
 toy_story = media.Movie("Toy Story", 
 						"A story of a boy and his toys that come to life", 
-						"https://pt.wikipedia.org/wiki/Toy_Story#/media/File:Movie_poster_toy_story.jpg",
+						"https://upload.wikimedia.org/wikipedia/pt/d/dc/Movie_poster_toy_story.jpg",
 						"https://www.youtube.com/watch?v=KYz2wyBy3kc")
 
 avatar = media.Movie("Avatar",
@@ -29,3 +30,7 @@ dark_knight = media.Movie("The Dark Knight",
 						"Batman faces the Joker.",
 						"https://upload.wikimedia.org/wikipedia/en/8/8a/Dark_Knight.jpg",
 						"https://www.youtube.com/watch?v=_PZpmTj1Q8Q")
+
+movies = [toy_story, avatar, gladiator, first_blood, conan, dark_knight]
+
+fresh_tomatoes.open_movies_page(movies)
