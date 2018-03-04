@@ -15,6 +15,7 @@ class Child(Parent):
 			self.number_of_toys = number_of_toys
 
 john_doe = Parent("Doe", "brown")
-john_doe.show_info()
+#john_doe.show_info()
 
 jane_doe = Child("Doe", "brown", 5)
+jane_doe.show_info()
