@@ -33,4 +33,6 @@ dark_knight = media.Movie("The Dark Knight",
 
 movies = [toy_story, avatar, gladiator, first_blood, conan, dark_knight]
 
-fresh_tomatoes.open_movies_page(movies)
+#fresh_tomatoes.open_movies_page(movies)
+
+print(media.Movie.VALID_RATINGS)
